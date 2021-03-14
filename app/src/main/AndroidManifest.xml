@@ -12,7 +12,11 @@
         android:supportsRtl="true"
         android:theme="@style/Theme.LearnCoreBackendAndroidUI"
         android:usesCleartextTraffic="true">
+        <activity android:name=".view.activity.WelcomeActivity"></activity>
         <activity android:name=".view.activity.RegisterActivity">
+
+        </activity>
+        <activity android:name=".view.activity.LoginActivity" >
 
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
@@ -21,10 +25,7 @@
             </intent-filter>
 
         </activity>
-        <activity android:name=".view.activity.LoginActivity" />
-        <activity android:name=".view.activity.MainActivity">
-
-        </activity>
+        <activity android:name=".view.activity.MainActivity"></activity>
     </application>
 
 </manifest>

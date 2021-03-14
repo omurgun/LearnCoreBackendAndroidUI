@@ -53,8 +53,8 @@ class RegisterActivity : AppCompatActivity() {
         }
     }
 
-    private fun goMain(){
-        val intent = Intent(this,MainActivity::class.java)
+    private fun goWelcome(){
+        val intent = Intent(this,WelcomeActivity::class.java)
         startActivity(intent)
         finish()
     }
@@ -93,7 +93,7 @@ class RegisterActivity : AppCompatActivity() {
         viewModel.isRegisterWithEmailAndPassword.observe(this, { withEmailAndPassword->
             withEmailAndPassword?.let {
                 if (it) {
-                    goMain()
+                    goWelcome()
                 }
             }
         })
