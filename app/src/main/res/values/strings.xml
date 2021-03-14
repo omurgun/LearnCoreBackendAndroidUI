@@ -1,0 +1,12 @@
+<resources>
+    <string name="app_name">LearnCoreBackendAndroidUI</string>
+    <string name="login">Giriş Yap</string>
+    <string name="email">E-posta</string>
+    <string name="password">Parola</string>
+    <string name="username">Kullanıcı adı</string>
+    <string name="register">Kayıt Ol</string>
+    <string name="firstName">Ad</string>
+    <string name="lastName">Soyad</string>
+
+
+</resources>
